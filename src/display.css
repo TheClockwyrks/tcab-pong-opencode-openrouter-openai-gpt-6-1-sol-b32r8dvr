@@ -1,0 +1,7 @@
+/* Keep the page's responsive size authoritative when the runtime pins its
+   backing-store measurement into an inline pixel size at DPR 1. The runtime
+   still owns all measurement, backing-store sizing, and logical fitting. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
